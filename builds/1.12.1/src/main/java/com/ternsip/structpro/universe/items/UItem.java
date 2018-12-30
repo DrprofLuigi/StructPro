@@ -6,7 +6,7 @@ import net.minecraft.client.renderer.ItemModelMesher;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraft.world.storage.loot.LootTableList
+import net.minecraft.world.storage.loot.LootTableList;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -24,9 +24,9 @@ public class UItem {
      */
     
     if (Configurator.VANILLA_LOOT_TABLES) {
-        LootTableManager.getLootTableFromLocation(LootTableList.getAll())
-        private Item item = LootTable.generateLootForPool(Random, LootContext)
-    else
+        LootTableManager.getLootTableFromLocation(LootTableList.getAll());
+        private Item item = LootTable.generateLootForPool(Random, LootContext);
+    } else {
         private Item item;
     }
 
