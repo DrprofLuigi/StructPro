@@ -25,7 +25,7 @@ public class UItem {
     
     if (Configurator.VANILLA_LOOT_TABLES) {
         LootTableManager.getLootTableFromLocation(LootTableList.getAll())
-        item = LootTable.generateLootForPool(Random, LootContext)
+        private Item item = LootTable.generateLootForPool(Random, LootContext)
     else
         private Item item;
     }
